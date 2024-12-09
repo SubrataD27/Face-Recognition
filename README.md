@@ -68,8 +68,10 @@ Press q to quit the webcam window.
 ```
 
 ### Notes:
-1. Replace `SubrataD27` with your actual GitHub username.
-2. Replace `subratadhibar@example.com` with your real email address.
-3. If you'd like to include a `LICENSE` file, create it in the same directory with the license terms.
+Authors
+Made by Subrata Dhibar
+GitHub: SubrataD27
+Email: subratadhibargcsj@gmail.com
+
 
 
