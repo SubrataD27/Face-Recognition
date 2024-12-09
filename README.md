@@ -37,4 +37,39 @@ Face-Recognition-System/
 
 
 
+How to Use
+Step 1: Capture Face Images
+Run the capture_faces.py script:
+bash
+Copy code
 python capture_faces.py
+Enter a user ID when prompted.
+The script will capture 30 face images of the user. Look directly at the camera.
+Captured images will be saved in the dataset directory in the format user.<ID>.<count>.jpg.
+
+Step 2: Train the Model
+Run the train_model.py script:
+bash
+Copy code
+python train_model.py
+This script will load all images from the dataset directory, encode them, and save the trained model as trained_faces.pkl.
+Step 3: Recognize Faces
+Run the recognize_faces.py script:
+
+bash
+Copy code
+python recognize_faces.py
+The script will use the trained model to recognize faces in real-time using your webcam.
+
+Recognized faces will be labeled with their user ID.
+Unknown faces will be labeled as "Unknown."
+Press q to quit the webcam window.
+
+```
+
+### Notes:
+1. Replace `SubrataD27` with your actual GitHub username.
+2. Replace `subratadhibar@example.com` with your real email address.
+3. If you'd like to include a `LICENSE` file, create it in the same directory with the license terms.
+
+
